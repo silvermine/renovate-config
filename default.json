@@ -1,0 +1,21 @@
+{
+   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+   "extends": [
+      "config:recommended"
+   ],
+   "lockFileMaintenance": { "enabled": true },
+   "nvm": { "enabled": false },
+   "semanticCommitScope": "",
+   "packageRules": [
+      {
+         "groupName": "all dependencies",
+         "matchPackageNames": [ ".*" ],
+         "minimumReleaseAge": "7 days"
+      },
+      {
+         "groupName": "silvermine packages",
+         "matchPackageNames": [ "^@silvermine/" ],
+         "minimumReleaseAge": null
+      }
+   ]
+}
