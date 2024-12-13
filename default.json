@@ -9,12 +9,12 @@
    "packageRules": [
       {
          "groupName": "all dependencies",
-         "matchPackageNames": [ ".*" ],
+         "matchPackageNames": [ "*" ],
          "minimumReleaseAge": "7 days"
       },
       {
          "groupName": "silvermine packages",
-         "matchPackageNames": [ "^@silvermine/" ],
+         "matchPackageNames": [ "/^@silvermine\//" ],
          "minimumReleaseAge": null
       }
    ]
