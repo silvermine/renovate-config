@@ -8,12 +8,10 @@
    "semanticCommitScope": "",
    "packageRules": [
       {
-         "groupName": "all dependencies",
          "matchPackageNames": [ "*" ],
          "minimumReleaseAge": "7 days"
       },
       {
-         "groupName": "silvermine packages",
          "matchPackageNames": [ "/^@silvermine\//" ],
          "minimumReleaseAge": null
       }
