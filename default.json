@@ -12,6 +12,18 @@
          "minimumReleaseAge": "7 days"
       },
       {
+         "groupName": "tauri (npm + cargo) coordinated update",
+         "matchManagers": ["npm", "cargo"],
+         "matchPackageNames": [
+            "@tauri-apps/api",
+            "@tauri-apps/cli",
+            "tauri",
+            "tauri-build",
+            "/^@tauri-apps\\/plugin-/",
+            "/^tauri-plugin-/"
+         ]
+      },
+      {
          "matchPackageNames": [ "/^@silvermine\//" ],
          "minimumReleaseAge": null
       }
